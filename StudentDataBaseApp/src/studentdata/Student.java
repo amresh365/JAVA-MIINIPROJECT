@@ -63,7 +63,7 @@ public class Student {
 	public void payment()
 	{   int payment;
 	    
-	    System.out.println("Enter Yhe Amount $:");
+	    System.out.println("Enter The Amount $:");
 		Scanner in=new Scanner(System.in);
 		payment=in.nextInt();
 		tutionBalance=tutionBalance-payment;

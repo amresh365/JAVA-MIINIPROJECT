@@ -5,7 +5,6 @@ package pac.toe;
 	  String name;
 	  char mark;
 		abstract void makeMove();
-
 public boolean isValidMove(int row,int column)
 {
 	if(row>=0&&row<=2&&column>=0&&column<=2)
